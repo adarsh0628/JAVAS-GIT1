@@ -24,3 +24,25 @@ let myobj = {
  const myfunction = function(){
     console.log("Hello World");
  }
+
+
+ // stack and heap
+
+ let myName ="RiteshSingh"
+
+ let anothername = myName
+
+ anothername = "AdarshSingh"
+ console.log(anothername);
+ console.log(myName);
+
+ let user1 ={
+   email : "adarsh@gmail.com",
+   upi : "use@ybl.com"
+ }
+
+ let user2 = user1
+
+ user2.email = "chul@gmail.c"
+  console.log(user1.email);
+  console.log(user2.email);
