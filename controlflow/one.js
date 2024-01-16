@@ -20,14 +20,28 @@
 // console.log(`power is ${power}`); // block scope ko scope ke bahar call kr rahe hai is liye error aayega 
 
 
-const bal = 1000
-// if (bal > 500) console.log("test"),//  console.log("test2");
-if(bal < 500){
-    console.log("less than 500");
-}else if(bal < 750){
-    console.log("less than 750");
-}else if(bal < 900) {
-    console.log("less than 900");
-}else{
-    console.log("less than 1200");
+// const bal = 1000
+// // if (bal > 500) console.log("test"),//  console.log("test2");
+// if(bal < 500){
+//     console.log("less than 500");
+// }else if(bal < 750){
+//     console.log("less than 750");
+// }else if(bal < 900) {
+//     console.log("less than 900");
+// }else{
+//     console.log("less than 1200");
+// }
+
+const userloggedin = true
+const debitcard = true
+const loggInfromGoogle = false 
+const  loggInfromEmail = true
+const guestuser = true
+
+if (userloggedin && debitcard && 2==2) {
+    console.log("Allow to buy course");
+}
+
+if (loggInfromGoogle || loggInfromEmail || guestuser) {
+    console.log("user logged in");
 }
